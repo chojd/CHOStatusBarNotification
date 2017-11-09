@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'CHOStatusBarNotification_Example' do
+  pod 'CHOStatusBarNotification', :path => '../'
+
+  target 'CHOStatusBarNotification_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
