@@ -38,7 +38,7 @@
 
 /* Begin PBXFileReference section */
 		01DD6E75773976E0B156641C /* Pods_CHOStatusBarNotification_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CHOStatusBarNotification_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		12DFA50531B71366B172A3BD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		12DFA50531B71366B172A3BD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		2A0AAC8695F93A2DBEBE29D1 /* Pods-CHOStatusBarNotification_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CHOStatusBarNotification_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CHOStatusBarNotification_Tests/Pods-CHOStatusBarNotification_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		53F4F2013BDDA10233ED2987 /* Pods-CHOStatusBarNotification_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CHOStatusBarNotification_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CHOStatusBarNotification_Example/Pods-CHOStatusBarNotification_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* CHOStatusBarNotification_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CHOStatusBarNotification_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -63,8 +63,8 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		75A1A487527A3B6691B113EC /* Pods-CHOStatusBarNotification_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CHOStatusBarNotification_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-CHOStatusBarNotification_Example/Pods-CHOStatusBarNotification_Example.release.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A54DEDA0611FF532CDCC23DB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		B5F1870B494124AF83FAE34E /* CHOStatusBarNotification.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = CHOStatusBarNotification.podspec; path = ../CHOStatusBarNotification.podspec; sourceTree = "<group>"; };
+		A54DEDA0611FF532CDCC23DB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		B5F1870B494124AF83FAE34E /* CHOStatusBarNotification.podspec */ = {isa = PBXFileReference; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = CHOStatusBarNotification.podspec; path = ../CHOStatusBarNotification.podspec; sourceTree = "<group>"; tabWidth = 2; };
 		B9A551B9D5E4B21877BCC1D7 /* Pods_CHOStatusBarNotification_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CHOStatusBarNotification_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C81E59812810FD1FD1D3DD9F /* Pods-CHOStatusBarNotification_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CHOStatusBarNotification_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CHOStatusBarNotification_Tests/Pods-CHOStatusBarNotification_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -250,6 +250,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = chojd;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = TK2AJMF2PU;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -488,7 +491,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -521,7 +524,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -533,12 +536,15 @@
 			baseConfigurationReference = 53F4F2013BDDA10233ED2987 /* Pods-CHOStatusBarNotification_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TK2AJMF2PU;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CHOStatusBarNotification/CHOStatusBarNotification-Prefix.pch";
 				INFOPLIST_FILE = "CHOStatusBarNotification/CHOStatusBarNotification-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chojd.CHOStatusBarNotification-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -548,12 +554,15 @@
 			baseConfigurationReference = 75A1A487527A3B6691B113EC /* Pods-CHOStatusBarNotification_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TK2AJMF2PU;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CHOStatusBarNotification/CHOStatusBarNotification-Prefix.pch";
 				INFOPLIST_FILE = "CHOStatusBarNotification/CHOStatusBarNotification-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chojd.CHOStatusBarNotification-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

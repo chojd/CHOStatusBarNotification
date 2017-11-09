@@ -1,0 +1,20 @@
+PODS:
+  - CHOStatusBarNotification (0.1.0):
+    - CHOStatusBarNotification/Core (= 0.1.0)
+  - CHOStatusBarNotification/Core (0.1.0):
+    - CHOStatusBarNotification/View
+  - CHOStatusBarNotification/View (0.1.0)
+
+DEPENDENCIES:
+  - CHOStatusBarNotification (from `../`)
+
+EXTERNAL SOURCES:
+  CHOStatusBarNotification:
+    :path: ../
+
+SPEC CHECKSUMS:
+  CHOStatusBarNotification: a98bbcefb1c2c288c425ea854fd892d3f3b880ef
+
+PODFILE CHECKSUM: 403c8e8c95aa50cb0b72142422bc6d2cc91e5fa8
+
+COCOAPODS: 1.4.0.beta.2

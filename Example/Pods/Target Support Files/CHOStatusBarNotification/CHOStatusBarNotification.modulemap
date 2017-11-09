@@ -1,0 +1,6 @@
+framework module CHOStatusBarNotification {
+  umbrella header "CHOStatusBarNotification-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,43 @@
+{
+  "name": "CHOStatusBarNotification",
+  "version": "0.1.0",
+  "summary": "Display Notifications On Status Bar",
+  "description": "Display Notifications On Status Bar",
+  "homepage": "https://github.com/chojd/CHOStatusBarNotification",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Gene": "jingda.cao@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/chojd/CHOStatusBarNotification.git",
+    "tag": "0.1.0"
+  },
+  "social_media_url": "https://twitter.com/JingdaCao",
+  "platforms": {
+    "ios": "8.0"
+  },
+  "default_subspecs": "Core",
+  "public_header_files": "Sources/Core/*.h",
+  "frameworks": [
+    "UIKit",
+    "Foundation"
+  ],
+  "subspecs": [
+    {
+      "name": "Core",
+      "source_files": "Sources/Core/*",
+      "dependencies": {
+        "CHOStatusBarNotification/View": [
+
+        ]
+      }
+    },
+    {
+      "name": "View",
+      "source_files": "Sources/View/*"
+    }
+  ]
+}

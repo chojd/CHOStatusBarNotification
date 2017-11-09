@@ -22,7 +22,7 @@ pod 'CHOStatusBarNotification'
 
 ## Author
 
-chojd, jingda.cao@mfashion.com.cn
+chojd, jingda.cao@gmail.com
 
 ## License
 

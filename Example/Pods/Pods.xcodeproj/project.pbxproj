@@ -1,0 +1,767 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		033518CEDCD6F2F9A3F49FF3D46104BD /* OFStatusBarNotificationCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = E132089C06BD4C172FA1848C9AA2C767 /* OFStatusBarNotificationCenter.m */; };
+		0630FEC1353AA2DAD21F2D8B4A9580AB /* OFStatusBarNotificationDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B42471DDF2864B01CD7E6F454E51B33 /* OFStatusBarNotificationDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		148FFA4619F48C6FFAD4892D8A90CC26 /* OFStatusBarNotificationSetting.h in Headers */ = {isa = PBXBuildFile; fileRef = 434E741FE8272055E725E5BEAB5126E4 /* OFStatusBarNotificationSetting.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3A4AED5BA3CC97B416125F08340D8092 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		3D4618844538CCF7B19C4D18CC95798E /* Pods-CHOStatusBarNotification_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A3D0D891893A372ACF1E1C4158039D81 /* Pods-CHOStatusBarNotification_Example-dummy.m */; };
+		3DCE6487742B8CE0DAD357BE311BB2B7 /* OFStatusBarNotificationContextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CA6503FB225B1F03B189B805E483591 /* OFStatusBarNotificationContextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		432128A1457125265DCE032DC6392E12 /* OFStatusBarNotificationDefines.m in Sources */ = {isa = PBXBuildFile; fileRef = 320A036EFE120CED2B18557C689F768A /* OFStatusBarNotificationDefines.m */; };
+		4E6991ACD36FCD8F6DB2845E5327C66A /* OFStatusBarNotificationCenter.h in Headers */ = {isa = PBXBuildFile; fileRef = 57E45B6A0756DDC2D85061FA0B58935E /* OFStatusBarNotificationCenter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		567A7F7E6A7FC930B3A450833032FD40 /* OFStatusBarNotification.h in Headers */ = {isa = PBXBuildFile; fileRef = BCC5B97D760E41C90BB42FAEDE8DFD70 /* OFStatusBarNotification.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		68F814213D45A6AB989BD53E67CB8424 /* CHOStatusBarNotification-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C59C132A558E62EEE7DADF985C3AC74 /* CHOStatusBarNotification-dummy.m */; };
+		6D2F959309AF10807DE2CB74B32FA0FE /* CHOStatusBarNotification-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4974C96AD036A79232B3CCC7EF20F386 /* CHOStatusBarNotification-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		79A8568AAF34E85D3A1CD6D04409BE7C /* OFStatusBarNotificationBoardView.h in Headers */ = {isa = PBXBuildFile; fileRef = DEE23BD57485A5C0EAE3C5D2D7D23126 /* OFStatusBarNotificationBoardView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8355DD9A4FB00958B5920A2FB67160EE /* OFStatusBarNotificationBoardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 81E5BC9A5427D9C615461D5C7A14C7AC /* OFStatusBarNotificationBoardView.m */; };
+		A24A09D01E9562C53A309CF83E64F854 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		A2E4C34EB73B64E601CF023B3FD511D4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
+		A4518D1E70B867D289F36628EF6F4B43 /* OFStatusBarNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 636F1744D7350B3C67F8581AE407CA3A /* OFStatusBarNotification.m */; };
+		ABBF4F794A76E9528F33E372C9150358 /* OFStatusBarNotificationSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A5EA1783F370F865754D43BC756AC4A /* OFStatusBarNotificationSetting.m */; };
+		ADDF578F16E8DB2B67AE5255339A3A78 /* Pods-CHOStatusBarNotification_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 85EF23BFDA1AB03C8B324DA0B09BFC80 /* Pods-CHOStatusBarNotification_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BE069011BCA9DCFA568924D253949121 /* Pods-CHOStatusBarNotification_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D8B3CA1AA84CC44EC296A57F78471A3C /* Pods-CHOStatusBarNotification_Tests-dummy.m */; };
+		C05DBCFB47B97FBCED272E12983D5859 /* OFStatusBarNotificationContextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C155F9E01D5453F1D749799C448CA0B /* OFStatusBarNotificationContextView.m */; };
+		E8A1E4DA20CFFAD4EDF404A6A0FAC075 /* Pods-CHOStatusBarNotification_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 26A1041D76DCDADA234FC27F7ADF077E /* Pods-CHOStatusBarNotification_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F22D695A013ABDCD46725C5310F53346 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C781996ADAF06BEAFCCCAA9473CF7FF5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C87F32E5DEAE22B8D17013AE04301B53;
+			remoteInfo = CHOStatusBarNotification;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0785C46202884CE2C94B5B5E62CBA1CA /* Pods-CHOStatusBarNotification_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CHOStatusBarNotification_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		0BE86535C21E6C255B173A845604D5F5 /* Pods-CHOStatusBarNotification_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-CHOStatusBarNotification_Tests.modulemap"; sourceTree = "<group>"; };
+		1C155F9E01D5453F1D749799C448CA0B /* OFStatusBarNotificationContextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OFStatusBarNotificationContextView.m; path = Sources/View/OFStatusBarNotificationContextView.m; sourceTree = "<group>"; };
+		25243A60CB3C6C7D5E182AD010B9D334 /* Pods-CHOStatusBarNotification_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CHOStatusBarNotification_Example-frameworks.sh"; sourceTree = "<group>"; };
+		26A1041D76DCDADA234FC27F7ADF077E /* Pods-CHOStatusBarNotification_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CHOStatusBarNotification_Tests-umbrella.h"; sourceTree = "<group>"; };
+		2A3F0CBD052EF7064A16201C5CFAB969 /* Pods-CHOStatusBarNotification_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CHOStatusBarNotification_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		2C40C3417EB39218117CD1CDA34A64AA /* Pods-CHOStatusBarNotification_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CHOStatusBarNotification_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		2E264E7F38C218AFF4A60683C4253FCA /* Pods_CHOStatusBarNotification_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CHOStatusBarNotification_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		320A036EFE120CED2B18557C689F768A /* OFStatusBarNotificationDefines.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OFStatusBarNotificationDefines.m; path = Sources/Core/OFStatusBarNotificationDefines.m; sourceTree = "<group>"; };
+		41625BF9764E201B33CAE027BCC929ED /* Pods-CHOStatusBarNotification_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CHOStatusBarNotification_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		434E741FE8272055E725E5BEAB5126E4 /* OFStatusBarNotificationSetting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OFStatusBarNotificationSetting.h; path = Sources/Core/OFStatusBarNotificationSetting.h; sourceTree = "<group>"; };
+		4974C96AD036A79232B3CCC7EF20F386 /* CHOStatusBarNotification-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CHOStatusBarNotification-umbrella.h"; sourceTree = "<group>"; };
+		4C59C132A558E62EEE7DADF985C3AC74 /* CHOStatusBarNotification-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CHOStatusBarNotification-dummy.m"; sourceTree = "<group>"; };
+		57E45B6A0756DDC2D85061FA0B58935E /* OFStatusBarNotificationCenter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OFStatusBarNotificationCenter.h; path = Sources/Core/OFStatusBarNotificationCenter.h; sourceTree = "<group>"; };
+		61930D3CAA5D2CA50685641AFC8ABBBA /* Pods-CHOStatusBarNotification_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CHOStatusBarNotification_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		636F1744D7350B3C67F8581AE407CA3A /* OFStatusBarNotification.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OFStatusBarNotification.m; path = Sources/Core/OFStatusBarNotification.m; sourceTree = "<group>"; };
+		6A5EA1783F370F865754D43BC756AC4A /* OFStatusBarNotificationSetting.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OFStatusBarNotificationSetting.m; path = Sources/Core/OFStatusBarNotificationSetting.m; sourceTree = "<group>"; };
+		6B021F84B9AE0D913EBDAC0EFB437206 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D0010A1A33C55708C853533D0363B58 /* Pods_CHOStatusBarNotification_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CHOStatusBarNotification_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		81E5BC9A5427D9C615461D5C7A14C7AC /* OFStatusBarNotificationBoardView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OFStatusBarNotificationBoardView.m; path = Sources/View/OFStatusBarNotificationBoardView.m; sourceTree = "<group>"; };
+		85EF23BFDA1AB03C8B324DA0B09BFC80 /* Pods-CHOStatusBarNotification_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CHOStatusBarNotification_Example-umbrella.h"; sourceTree = "<group>"; };
+		8B42471DDF2864B01CD7E6F454E51B33 /* OFStatusBarNotificationDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OFStatusBarNotificationDefines.h; path = Sources/Core/OFStatusBarNotificationDefines.h; sourceTree = "<group>"; };
+		8CA6503FB225B1F03B189B805E483591 /* OFStatusBarNotificationContextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OFStatusBarNotificationContextView.h; path = Sources/View/OFStatusBarNotificationContextView.h; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		95A0A37C5FA5604E5FBE1B8759DAB93B /* Pods-CHOStatusBarNotification_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CHOStatusBarNotification_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		996FE98F7510E5B7846292BC769480AA /* Pods-CHOStatusBarNotification_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CHOStatusBarNotification_Tests-resources.sh"; sourceTree = "<group>"; };
+		99F4436937755C6440202E14FCE14D16 /* CHOStatusBarNotification.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = CHOStatusBarNotification.modulemap; sourceTree = "<group>"; };
+		A3D0D891893A372ACF1E1C4158039D81 /* Pods-CHOStatusBarNotification_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CHOStatusBarNotification_Example-dummy.m"; sourceTree = "<group>"; };
+		B4ECCB19B48E60B4F512DC3BEB5ECA10 /* Pods-CHOStatusBarNotification_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CHOStatusBarNotification_Example-resources.sh"; sourceTree = "<group>"; };
+		B5F6DDDEC6A7094170FCD50B873C43F3 /* CHOStatusBarNotification-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CHOStatusBarNotification-prefix.pch"; sourceTree = "<group>"; };
+		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		BCC5B97D760E41C90BB42FAEDE8DFD70 /* OFStatusBarNotification.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OFStatusBarNotification.h; path = Sources/Core/OFStatusBarNotification.h; sourceTree = "<group>"; };
+		D30F50B1987E3D116088DB76BF968F79 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D8B3CA1AA84CC44EC296A57F78471A3C /* Pods-CHOStatusBarNotification_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CHOStatusBarNotification_Tests-dummy.m"; sourceTree = "<group>"; };
+		DD889776979F84742ADB4D354B876BA2 /* Pods-CHOStatusBarNotification_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CHOStatusBarNotification_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		DEE23BD57485A5C0EAE3C5D2D7D23126 /* OFStatusBarNotificationBoardView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OFStatusBarNotificationBoardView.h; path = Sources/View/OFStatusBarNotificationBoardView.h; sourceTree = "<group>"; };
+		E132089C06BD4C172FA1848C9AA2C767 /* OFStatusBarNotificationCenter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OFStatusBarNotificationCenter.m; path = Sources/Core/OFStatusBarNotificationCenter.m; sourceTree = "<group>"; };
+		E1A24C2F338E3FA5BD3B3F47E2B2ABC1 /* CHOStatusBarNotification.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CHOStatusBarNotification.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E97A201B7E4753034E1644BC97B9B09C /* CHOStatusBarNotification.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CHOStatusBarNotification.xcconfig; sourceTree = "<group>"; };
+		E9EE41A6992CB51C71371F316B8CBB4F /* Pods-CHOStatusBarNotification_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CHOStatusBarNotification_Example.release.xcconfig"; sourceTree = "<group>"; };
+		F15B100E584DF9B5FDDC53E0DB928037 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6AE01003C705FC68C5BB6B24F2437CD /* Pods-CHOStatusBarNotification_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CHOStatusBarNotification_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		FD71BE36F869222318CCD6D5F694804C /* Pods-CHOStatusBarNotification_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-CHOStatusBarNotification_Example.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2D9476F73672AB98B6A81B7AC5F49E31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A4AED5BA3CC97B416125F08340D8092 /* Foundation.framework in Frameworks */,
+				A2E4C34EB73B64E601CF023B3FD511D4 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		384CBE9CBA602785AAFDB7B66E32B3E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F22D695A013ABDCD46725C5310F53346 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB541B46EC08F1E617B93601F584E86B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A24A09D01E9562C53A309CF83E64F854 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		24FE6D4F8669BE65C6E83C4AC5547DB9 /* CHOStatusBarNotification */ = {
+			isa = PBXGroup;
+			children = (
+				734A67B4CF2B99EFAA05666338D0F63D /* Core */,
+				9514D6E5ABD8BEF511087D754B92BE7D /* Support Files */,
+				7D131BF0BB245F231EAC441DF30719E7 /* View */,
+			);
+			name = CHOStatusBarNotification;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		3AA6EB2E1FD382C35592193DBD974E40 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				24FE6D4F8669BE65C6E83C4AC5547DB9 /* CHOStatusBarNotification */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				438B396F6B4147076630CAEFE34282C1 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		438B396F6B4147076630CAEFE34282C1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */,
+				B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		591F33B81DA80D3C2739158B7D3126B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1A24C2F338E3FA5BD3B3F47E2B2ABC1 /* CHOStatusBarNotification.framework */,
+				2E264E7F38C218AFF4A60683C4253FCA /* Pods_CHOStatusBarNotification_Example.framework */,
+				7D0010A1A33C55708C853533D0363B58 /* Pods_CHOStatusBarNotification_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		734A67B4CF2B99EFAA05666338D0F63D /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				BCC5B97D760E41C90BB42FAEDE8DFD70 /* OFStatusBarNotification.h */,
+				636F1744D7350B3C67F8581AE407CA3A /* OFStatusBarNotification.m */,
+				57E45B6A0756DDC2D85061FA0B58935E /* OFStatusBarNotificationCenter.h */,
+				E132089C06BD4C172FA1848C9AA2C767 /* OFStatusBarNotificationCenter.m */,
+				8B42471DDF2864B01CD7E6F454E51B33 /* OFStatusBarNotificationDefines.h */,
+				320A036EFE120CED2B18557C689F768A /* OFStatusBarNotificationDefines.m */,
+				434E741FE8272055E725E5BEAB5126E4 /* OFStatusBarNotificationSetting.h */,
+				6A5EA1783F370F865754D43BC756AC4A /* OFStatusBarNotificationSetting.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		7D131BF0BB245F231EAC441DF30719E7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DEE23BD57485A5C0EAE3C5D2D7D23126 /* OFStatusBarNotificationBoardView.h */,
+				81E5BC9A5427D9C615461D5C7A14C7AC /* OFStatusBarNotificationBoardView.m */,
+				8CA6503FB225B1F03B189B805E483591 /* OFStatusBarNotificationContextView.h */,
+				1C155F9E01D5453F1D749799C448CA0B /* OFStatusBarNotificationContextView.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				3AA6EB2E1FD382C35592193DBD974E40 /* Development Pods */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				591F33B81DA80D3C2739158B7D3126B3 /* Products */,
+				F0E751C0441EEA1680858FD83B24C929 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		85448FBDCD3648ADC794D2662393C6F3 /* Pods-CHOStatusBarNotification_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F15B100E584DF9B5FDDC53E0DB928037 /* Info.plist */,
+				0BE86535C21E6C255B173A845604D5F5 /* Pods-CHOStatusBarNotification_Tests.modulemap */,
+				61930D3CAA5D2CA50685641AFC8ABBBA /* Pods-CHOStatusBarNotification_Tests-acknowledgements.markdown */,
+				41625BF9764E201B33CAE027BCC929ED /* Pods-CHOStatusBarNotification_Tests-acknowledgements.plist */,
+				D8B3CA1AA84CC44EC296A57F78471A3C /* Pods-CHOStatusBarNotification_Tests-dummy.m */,
+				2C40C3417EB39218117CD1CDA34A64AA /* Pods-CHOStatusBarNotification_Tests-frameworks.sh */,
+				996FE98F7510E5B7846292BC769480AA /* Pods-CHOStatusBarNotification_Tests-resources.sh */,
+				26A1041D76DCDADA234FC27F7ADF077E /* Pods-CHOStatusBarNotification_Tests-umbrella.h */,
+				DD889776979F84742ADB4D354B876BA2 /* Pods-CHOStatusBarNotification_Tests.debug.xcconfig */,
+				0785C46202884CE2C94B5B5E62CBA1CA /* Pods-CHOStatusBarNotification_Tests.release.xcconfig */,
+			);
+			name = "Pods-CHOStatusBarNotification_Tests";
+			path = "Target Support Files/Pods-CHOStatusBarNotification_Tests";
+			sourceTree = "<group>";
+		};
+		902314A562C1E54F03645BF4CAC2F07C /* Pods-CHOStatusBarNotification_Example */ = {
+			isa = PBXGroup;
+			children = (
+				6B021F84B9AE0D913EBDAC0EFB437206 /* Info.plist */,
+				FD71BE36F869222318CCD6D5F694804C /* Pods-CHOStatusBarNotification_Example.modulemap */,
+				95A0A37C5FA5604E5FBE1B8759DAB93B /* Pods-CHOStatusBarNotification_Example-acknowledgements.markdown */,
+				F6AE01003C705FC68C5BB6B24F2437CD /* Pods-CHOStatusBarNotification_Example-acknowledgements.plist */,
+				A3D0D891893A372ACF1E1C4158039D81 /* Pods-CHOStatusBarNotification_Example-dummy.m */,
+				25243A60CB3C6C7D5E182AD010B9D334 /* Pods-CHOStatusBarNotification_Example-frameworks.sh */,
+				B4ECCB19B48E60B4F512DC3BEB5ECA10 /* Pods-CHOStatusBarNotification_Example-resources.sh */,
+				85EF23BFDA1AB03C8B324DA0B09BFC80 /* Pods-CHOStatusBarNotification_Example-umbrella.h */,
+				2A3F0CBD052EF7064A16201C5CFAB969 /* Pods-CHOStatusBarNotification_Example.debug.xcconfig */,
+				E9EE41A6992CB51C71371F316B8CBB4F /* Pods-CHOStatusBarNotification_Example.release.xcconfig */,
+			);
+			name = "Pods-CHOStatusBarNotification_Example";
+			path = "Target Support Files/Pods-CHOStatusBarNotification_Example";
+			sourceTree = "<group>";
+		};
+		9514D6E5ABD8BEF511087D754B92BE7D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				99F4436937755C6440202E14FCE14D16 /* CHOStatusBarNotification.modulemap */,
+				E97A201B7E4753034E1644BC97B9B09C /* CHOStatusBarNotification.xcconfig */,
+				4C59C132A558E62EEE7DADF985C3AC74 /* CHOStatusBarNotification-dummy.m */,
+				B5F6DDDEC6A7094170FCD50B873C43F3 /* CHOStatusBarNotification-prefix.pch */,
+				4974C96AD036A79232B3CCC7EF20F386 /* CHOStatusBarNotification-umbrella.h */,
+				D30F50B1987E3D116088DB76BF968F79 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/CHOStatusBarNotification";
+			sourceTree = "<group>";
+		};
+		F0E751C0441EEA1680858FD83B24C929 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				902314A562C1E54F03645BF4CAC2F07C /* Pods-CHOStatusBarNotification_Example */,
+				85448FBDCD3648ADC794D2662393C6F3 /* Pods-CHOStatusBarNotification_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2EB6AD9D618F3BC1EEB64D535DB1CDAB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADDF578F16E8DB2B67AE5255339A3A78 /* Pods-CHOStatusBarNotification_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0DE884CFD4BC018E145363A805C2594 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D2F959309AF10807DE2CB74B32FA0FE /* CHOStatusBarNotification-umbrella.h in Headers */,
+				567A7F7E6A7FC930B3A450833032FD40 /* OFStatusBarNotification.h in Headers */,
+				79A8568AAF34E85D3A1CD6D04409BE7C /* OFStatusBarNotificationBoardView.h in Headers */,
+				4E6991ACD36FCD8F6DB2845E5327C66A /* OFStatusBarNotificationCenter.h in Headers */,
+				3DCE6487742B8CE0DAD357BE311BB2B7 /* OFStatusBarNotificationContextView.h in Headers */,
+				0630FEC1353AA2DAD21F2D8B4A9580AB /* OFStatusBarNotificationDefines.h in Headers */,
+				148FFA4619F48C6FFAD4892D8A90CC26 /* OFStatusBarNotificationSetting.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F697A9C7D7DDDC8FE809F967142B4A97 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8A1E4DA20CFFAD4EDF404A6A0FAC075 /* Pods-CHOStatusBarNotification_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		164A033794EB0C861DC20E2B7CB5B3AD /* Pods-CHOStatusBarNotification_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B976C8BE4BD2BA1E2EF0DB5AABE7A0A0 /* Build configuration list for PBXNativeTarget "Pods-CHOStatusBarNotification_Example" */;
+			buildPhases = (
+				C76CC090D8837F5E3CF44DC62C6EA483 /* Sources */,
+				BB541B46EC08F1E617B93601F584E86B /* Frameworks */,
+				2EB6AD9D618F3BC1EEB64D535DB1CDAB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				57A91DCEB0A0ADB5688E28B1CC689130 /* PBXTargetDependency */,
+			);
+			name = "Pods-CHOStatusBarNotification_Example";
+			productName = "Pods-CHOStatusBarNotification_Example";
+			productReference = 2E264E7F38C218AFF4A60683C4253FCA /* Pods_CHOStatusBarNotification_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C87F32E5DEAE22B8D17013AE04301B53 /* CHOStatusBarNotification */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBDF53301A4A43899CF9683C0CDEE7D2 /* Build configuration list for PBXNativeTarget "CHOStatusBarNotification" */;
+			buildPhases = (
+				D415079A2071B28539CE8C391128DDB2 /* Sources */,
+				2D9476F73672AB98B6A81B7AC5F49E31 /* Frameworks */,
+				B0DE884CFD4BC018E145363A805C2594 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CHOStatusBarNotification;
+			productName = CHOStatusBarNotification;
+			productReference = E1A24C2F338E3FA5BD3B3F47E2B2ABC1 /* CHOStatusBarNotification.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		ECAA83AD545A605E08FB0E307B3104BB /* Pods-CHOStatusBarNotification_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B80DB2092D62304D14F9540E6F84A26 /* Build configuration list for PBXNativeTarget "Pods-CHOStatusBarNotification_Tests" */;
+			buildPhases = (
+				A2F5D9EAD1B67C2C2E88B86C77908BE7 /* Sources */,
+				384CBE9CBA602785AAFDB7B66E32B3E8 /* Frameworks */,
+				F697A9C7D7DDDC8FE809F967142B4A97 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-CHOStatusBarNotification_Tests";
+			productName = "Pods-CHOStatusBarNotification_Tests";
+			productReference = 7D0010A1A33C55708C853533D0363B58 /* Pods_CHOStatusBarNotification_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 591F33B81DA80D3C2739158B7D3126B3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C87F32E5DEAE22B8D17013AE04301B53 /* CHOStatusBarNotification */,
+				164A033794EB0C861DC20E2B7CB5B3AD /* Pods-CHOStatusBarNotification_Example */,
+				ECAA83AD545A605E08FB0E307B3104BB /* Pods-CHOStatusBarNotification_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A2F5D9EAD1B67C2C2E88B86C77908BE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE069011BCA9DCFA568924D253949121 /* Pods-CHOStatusBarNotification_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C76CC090D8837F5E3CF44DC62C6EA483 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D4618844538CCF7B19C4D18CC95798E /* Pods-CHOStatusBarNotification_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D415079A2071B28539CE8C391128DDB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68F814213D45A6AB989BD53E67CB8424 /* CHOStatusBarNotification-dummy.m in Sources */,
+				A4518D1E70B867D289F36628EF6F4B43 /* OFStatusBarNotification.m in Sources */,
+				8355DD9A4FB00958B5920A2FB67160EE /* OFStatusBarNotificationBoardView.m in Sources */,
+				033518CEDCD6F2F9A3F49FF3D46104BD /* OFStatusBarNotificationCenter.m in Sources */,
+				C05DBCFB47B97FBCED272E12983D5859 /* OFStatusBarNotificationContextView.m in Sources */,
+				432128A1457125265DCE032DC6392E12 /* OFStatusBarNotificationDefines.m in Sources */,
+				ABBF4F794A76E9528F33E372C9150358 /* OFStatusBarNotificationSetting.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		57A91DCEB0A0ADB5688E28B1CC689130 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CHOStatusBarNotification;
+			target = C87F32E5DEAE22B8D17013AE04301B53 /* CHOStatusBarNotification */;
+			targetProxy = C781996ADAF06BEAFCCCAA9473CF7FF5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0E1F16C9B6AC59B6B16F12F1C5DE4835 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9EE41A6992CB51C71371F316B8CBB4F /* Pods-CHOStatusBarNotification_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CHOStatusBarNotification_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CHOStatusBarNotification_Example/Pods-CHOStatusBarNotification_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CHOStatusBarNotification_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1AEC72520364267819792C7D4745A69E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E97A201B7E4753034E1644BC97B9B09C /* CHOStatusBarNotification.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CHOStatusBarNotification/CHOStatusBarNotification-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CHOStatusBarNotification/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CHOStatusBarNotification/CHOStatusBarNotification.modulemap";
+				PRODUCT_NAME = CHOStatusBarNotification;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7ACB33FE17B04C0D6025C4612C9BFFBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E97A201B7E4753034E1644BC97B9B09C /* CHOStatusBarNotification.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CHOStatusBarNotification/CHOStatusBarNotification-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CHOStatusBarNotification/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CHOStatusBarNotification/CHOStatusBarNotification.modulemap";
+				PRODUCT_NAME = CHOStatusBarNotification;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8115D06D83C50FC39B44CE0DA4511AD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A3F0CBD052EF7064A16201C5CFAB969 /* Pods-CHOStatusBarNotification_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CHOStatusBarNotification_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CHOStatusBarNotification_Example/Pods-CHOStatusBarNotification_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CHOStatusBarNotification_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B254DAA6CF0CE39F4A3D11B90A7E059A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		CC1D6BC645A539806A33D09E134AD8B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0785C46202884CE2C94B5B5E62CBA1CA /* Pods-CHOStatusBarNotification_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CHOStatusBarNotification_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CHOStatusBarNotification_Tests/Pods-CHOStatusBarNotification_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CHOStatusBarNotification_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E4B68EE12B21C47CB798D9B1ECA6D7A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		F6AE9F49908350F506BDD3077A0F2E5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD889776979F84742ADB4D354B876BA2 /* Pods-CHOStatusBarNotification_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CHOStatusBarNotification_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CHOStatusBarNotification_Tests/Pods-CHOStatusBarNotification_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CHOStatusBarNotification_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4B68EE12B21C47CB798D9B1ECA6D7A7 /* Debug */,
+				B254DAA6CF0CE39F4A3D11B90A7E059A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B80DB2092D62304D14F9540E6F84A26 /* Build configuration list for PBXNativeTarget "Pods-CHOStatusBarNotification_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6AE9F49908350F506BDD3077A0F2E5E /* Debug */,
+				CC1D6BC645A539806A33D09E134AD8B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B976C8BE4BD2BA1E2EF0DB5AABE7A0A0 /* Build configuration list for PBXNativeTarget "Pods-CHOStatusBarNotification_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8115D06D83C50FC39B44CE0DA4511AD2 /* Debug */,
+				0E1F16C9B6AC59B6B16F12F1C5DE4835 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBDF53301A4A43899CF9683C0CDEE7D2 /* Build configuration list for PBXNativeTarget "CHOStatusBarNotification" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7ACB33FE17B04C0D6025C4612C9BFFBD /* Debug */,
+				1AEC72520364267819792C7D4745A69E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

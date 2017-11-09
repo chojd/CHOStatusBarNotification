@@ -1,0 +1,6 @@
+framework module Pods_CHOStatusBarNotification_Example {
+  umbrella header "Pods-CHOStatusBarNotification_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
